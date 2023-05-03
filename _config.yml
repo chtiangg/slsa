@@ -4,11 +4,6 @@ logo: /images/icons/android-chrome-512x512.png
 repository: slsa-framework/slsa
 baseurl: "/0.1" # serves the URL with an additonal baseurl, for example, http://slsa.dev/v0.1.
 destination: "./_site/v0.1" # stores the result in a specific directory.
-collections:
-  posts:
-    layout: post
-    output: true
-    permalink: /blog/:year/:month/:title
 exclude:
   - CNAME
   - Gemfile
@@ -41,8 +36,6 @@ plugins:
   - jekyll-readme-index
   - jekyll-titles-from-headings
   - jekyll-relative-links
-relative_links:
-  collections: true
 defaults:
   - scope:
       path: "assets/images"
