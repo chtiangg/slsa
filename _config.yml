@@ -36,8 +36,6 @@ plugins:
   - jekyll-readme-index
   - jekyll-titles-from-headings
   - jekyll-relative-links
-relative_links:
-  collections: true
 defaults:
   - scope:
       path: "assets/images"
