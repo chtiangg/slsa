@@ -2,11 +2,8 @@ title: SLSA
 description: "SLSA: Security framework to ensure software supply chain integrity"
 logo: /images/icons/android-chrome-512x512.png
 repository: slsa-framework/slsa
-collections:
-  posts:
-    layout: post
-    output: true
-    permalink: /blog/:year/:month/:title
+baseurl: "/v1.0" # serves the URL with an additonal baseurl, for example, http://slsa.dev/v1.0.
+destination: "./_site/v1.0" # stores the result in a specific directory.
 exclude:
   - CNAME
   - Gemfile
@@ -47,13 +44,9 @@ defaults:
     values:
       image: true
   - scope:
-      path: "spec"
+      path: ""
     values:
       layout: "specifications"
-  - scope:
-      path: "_posts"
-    values:
-      type: posts
   - scope:
       path: ""
     values:
