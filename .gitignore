@@ -5,7 +5,7 @@
 .sass-cache
 _site
 node_modules
-/docs/vendor/bundle
+vendor/bundle
 
 # Ignore the following files markdownlint that are already tracked by git (thus
 # uanffected by gitignore).

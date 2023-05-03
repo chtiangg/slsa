@@ -49,13 +49,9 @@ defaults:
     values:
       image: true
   - scope:
-      path: "spec"
+      path: ""
     values:
       layout: "specifications"
-  - scope:
-      path: "_posts"
-    values:
-      type: posts
   - scope:
       path: ""
     values:
