@@ -1,49 +1,56 @@
-# SLSA ("salsa") is Supply-chain Levels for Software Artifacts
+# slsa.dev sources
 
-<img align="right" src="https://github.com/slsa-framework/slsa/blob/main/docs/images/slsa-dancing-goose-logo.svg">
+This directory contains sources for [https://slsa.dev](https://slsa.dev), served
+via GitHub pages and rendered with Jekyll.
 
-SLSA (pronounced ["salsa"](https://www.google.com/search?q=how+to+pronounce+salsa)) is a security framework from source to service, giving anyone working with software a common language for increasing levels of software security and supply chain integrity. It’s how you get from safe enough to being as resilient as possible, at any link in the chain.
+## Developing and testing locally
 
-## Learning about SLSA
+1.  Install ruby, bundler, and the dev headers:
 
-See https://slsa.dev to learn about SLSA.
+    ```bash
+    apt install ruby ruby-dev bundler
+    ```
 
-## What's in this repo?
+    Alternatively, you can use `rbenv` to use the exact version of Ruby used by
+    GitHub Pages, but Debian's versions are likely close enough.
 
-The primary content of this repo is the [docs/](docs/) directory, which contains
-the core SLSA specification and sources to the [slsa.dev] website. See the
-README.md in that directory for instructions on how to build the site.
+2.  Clone this repo and change directory to `/docs`:
 
-This repository also hosts SLSA's main [issue tracker], covering the website,
-specification, and overall project management. Other git repositories within the
-[slsa-framework](https://github.com/slsa-framework) organization have
-repo-specific issue trackers.
+    ```bash
+    git clone https://github.com/slsa-framework/slsa
+    cd slsa/docs
+    ```
 
-## How to get involved
+3.  Install the dependencies locally:
 
-See https://slsa.dev/community for ways to get involved in SLSA development.
+    ```bash
+    bundle config set --local path 'vendor/bundle'
+    bundle install
+    ```
 
-## Governance
+4.  (optional) To enable `jekyll-github-metadata` to read metadata about the
+    slsa repository from the GitHub API, create a GitHub
+    [personal access token](https://github.com/settings/tokens/new) and add it
+    to your `~/.netrc`, like so:
 
-SLSA is an [OpenSSF](https://openssf.org) project. See
-[slsa-framework/governance](https://github.com/slsa-framework/governance) for
-governance information, including current steering committee members.
+    ```none
+    machine api.github.com
+        login github-username
+        password 123abc-your-token
+    ```
 
-To include the steering committee on GitHub, use
-`@slsa-framework/slsa-steering-committee`.
+5.  Run the project locally with `jekyll serve`:
 
-## License
+    ```bash
+    bundle exec jekyll serve --livereload --incremental
+    ```
 
-All SLSA specification content contributed following adoption of the Community
-Specification governance model is provided under the
-[Community Specification License 1.0](LICENSE.md).
+    The options can be omitted if preferred. `--livereload` causes the website
+    to autorefresh after every build. `--incremental` results in faster
+    incremental builds at the cost of possibly missing some changes.
 
-Pre-existing portions of the SLSA specification from contributors who have not
-subsequently contributed under the Community Specification License 1.0 following
-its adoption are provided under the
-[Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0.txt).
+6.  Browse to http://localhost:4000 to view the site locally.
 
-<!-- Links -->
+## Deployment
 
-[issue tracker]: https://github.com/slsa-framework/slsa/issues
-[slsa.dev]: https://slsa.dev
+Pushing to `main` will trigger a deployment of GitHub Pages.
