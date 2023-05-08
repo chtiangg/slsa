@@ -439,7 +439,7 @@ information that is not captured in a standard field. Guidelines:
 
 ## Verification
 
-[Verification]: /spec/v1.0/verifying-artifacts
+[Verification]: /v1.0/verifying-artifacts
 
 Please see [Verifying Artifacts][Verification] for a detailed discussion of
 provenance verification.
@@ -580,5 +580,5 @@ Initial version, named "in-toto.io/Provenance"
 [in-toto attestation]: https://github.com/in-toto/attestation
 [parsing rules]: https://github.com/in-toto/attestation/blob/main/spec/v1.0/README.md#parsing-rules
 [purl]: https://github.com/package-url/purl-spec
-[threats]: /spec/v1.0/threats
-[trusted]: /spec/v1.0/principles#trust-platforms-verify-artifacts
+[threats]: /v1.0/threats
+[trusted]: /v1.0/principles#trust-platforms-verify-artifacts

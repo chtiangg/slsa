@@ -198,5 +198,5 @@ updated to v1.0.
 
 [future]: future-directions
 [proposal]: https://github.com/slsa-framework/slsa-proposals/blob/main/0003/README.md
-[v0.1-reqs]: /spec/v0.1/requirements
-[v0.1]: /spec/v0.1/
+[v0.1-reqs]: /v0.1/requirements
+[v0.1]: /v0.1/
