@@ -156,7 +156,7 @@ recognize that other choices MAY be necessary in various cases.
 [Provenance]: /provenance
 [remote attestation]: https://en.wikipedia.org/wiki/Trusted_Computing#Remote_attestation
 [RFC 2119]: https://tools.ietf.org/html/rfc2119
-[SLSA Provenance format]: /provenance/v1.md
+[SLSA Provenance format]: /v1.0/provenance.md
 [sigstore/cosign]: https://github.com/sigstore/cosign
 [SPDX]: https://github.com/in-toto/attestation/blob/main/spec/predicates/spdx.md
 [Verification Summary Attestation]: /verification_summary/v1.md

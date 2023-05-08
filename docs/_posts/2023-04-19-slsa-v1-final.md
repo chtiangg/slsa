@@ -23,7 +23,7 @@ As always, we welcome contributions from all. Please see the
 ## Changes since RC2
 
 There is one breaking change since [RC2](2023-04-04-slsa-v1-rc2.md): the
-[provenance](/provenance/v1) field `systemParameters` was renamed to
+[provenance](/v1.0/provenance) field `systemParameters` was renamed to
 `internalParameters` to highlight the contrast from `externalParameters`.
 
 [OpenSSF press release]: https://openssf.org/press-release/2023/04/19/openssf-announces-slsa-version-1-0-release/
