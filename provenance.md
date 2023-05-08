@@ -24,7 +24,7 @@ Describe how an artifact or set of artifacts was produced so that:
 -   Others can rebuild the artifact, if desired.
 
 This predicate is the RECOMMENDED way to satisfy the SLSA v1.0 [provenance
-requirements](/spec/v1.0/requirements#provenance-generation).
+requirements](/v1.0/requirements#provenance-generation).
 
 ## Prerequisite
 
@@ -83,7 +83,7 @@ The model is as follows:
 -   During execution, the build process might communicate with the build
     platform's control plane and/or build caches. This communication is not
     captured directly in the provenance, but is instead implied by `builder.id`
-    and subject to [SLSA Requirements](/spec/v1.0/requirements). Such
+    and subject to [SLSA Requirements](/v1.0/requirements). Such
     communication SHOULD NOT influence the definition of the build; if it does,
     it SHOULD go in `resolvedDependencies` instead.
 
@@ -332,7 +332,7 @@ REQUIRED for SLSA Build L1: `id`
 <td>string (<a href="https://github.com/in-toto/attestation/blob/main/spec/v1.0/field_types.md#typeuri">TypeURI</a>)<td>
 
 URI indicating the transitive closure of the trusted build platform. This is
-[intended](/spec/v1.0/verifying-artifacts#step-1-check-slsa-build-level)
+[intended](/v1.0/verifying-artifacts#step-1-check-slsa-build-level)
 to be the sole determiner of the SLSA Build level.
 
 If a build platform has multiple modes of operations that have differing
@@ -369,7 +369,7 @@ the build and record the provenance. This includes not only the software but the
 hardware and people involved in running the service. For example, a particular
 instance of [Tekton](https://tekton.dev/) could be a build platform, while
 Tekton itself is not. For more info, see [Build
-model](/spec/v1.0/terminology#build-model).
+model](/v1.0/terminology#build-model).
 
 The `id` MUST reflect the trust base that consumers care about. How detailed to
 be is a judgement call. For example, GitHub Actions supports both GitHub-hosted
