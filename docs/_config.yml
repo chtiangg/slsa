@@ -3,7 +3,7 @@ description: "SLSA: Security framework to ensure software supply chain integrity
 logo: /images/icons/android-chrome-512x512.png
 repository: slsa-framework/slsa
 baseurl: "/"
-destination: "./_site/"
+destination: "../_site/" # Put the _site fold in the top level dir
 collections:
   posts:
     layout: post
