@@ -2,7 +2,7 @@
 # The spec index does not show top-level elements without children.
 
 - title: Overview
-  url: /v1.0/
+  url: /
 
 - title: Understanding SLSA
   description: >
@@ -12,31 +12,31 @@
   children:
 
   - title: What's new in v1.0
-    url: /v1.0/whats-new
+    url: /whats-new
     description: What's new in SLSA Version 1.0
 
   - title: About SLSA
-    url: /v1.0/about
+    url: /about
     description: An introductory guide to SLSA
 
   - title: Supply chain threats
-    url: /v1.0/threats-overview
+    url: /threats-overview
     description: An introduction to supply chain threats
 
   - title: Use cases
-    url: /v1.0/use-cases
+    url: /use-cases
     description: Use cases
 
   - title: Guiding principles
-    url: /v1.0/principles
+    url: /principles
     description: Use cases
 
   - title: FAQ
-    url: /v1.0/faq
+    url: /faq
     description: Questions and more information
 
   - title: Future directions
-    url: /v1.0/future-directions
+    url: /future-directions
     description: Additions and changes being considered for future SLSA versions
 
 - title: Core specification
@@ -47,31 +47,31 @@
   children:
 
   - title: Terminology
-    url: /v1.0/terminology
+    url: /terminology
     description: Terminology and model used by SLSA
 
   - title: Security levels
-    url: /v1.0/levels
+    url: /levels
     description: Overview of SLSA's tracks and levels, intended for all audiences
 
   - title: Producing artifacts
-    url: /v1.0/requirements
+    url: /requirements
     description: Detailed technical requirements for producing software artifacts, intended for platform implementers
 
   - title: Distributing provenance
-    url: /v1.0/distributing-provenance
+    url: /distributing-provenance
     description: Detailed technical requirements for distributing provenance, intended for platform implementers and software distributors
 
   - title: Verifying artifacts
-    url: /v1.0/verifying-artifacts
+    url: /verifying-artifacts
     description: Guidance for verifying software artifacts and their SLSA provenance, intended for platform implementers and software consumers
 
   - title: Verifying build platforms
-    url: /v1.0/verifying-systems
+    url: /verifying-systems
     description: Guidelines for securing SLSA Build L3+ builders, intended for platform implementers
 
   - title: Threats & mitigations
-    url: /v1.0/threats
+    url: /threats
     description: Detailed information about specific supply chain attacks and how SLSA helps
 
 - title: Attestation formats
@@ -86,11 +86,11 @@
     description: General attestation mode
 
   - title: Provenance
-    url: /v1.0/provenance
+    url: /provenance
     description: Suggested provenance format and explanation
 
   - title: VSA
-    url: /v1.0/verification_summary
+    url: /verification_summary
     description: Suggested VSA format and explanation
 
 - title: How to SLSA
@@ -121,5 +121,5 @@
   url: blog
 
 - title: Single-page view
-  url: /v1.0/onepage
+  url: /onepage
   skip_next_prev: true  # don't show as a next/prev link
