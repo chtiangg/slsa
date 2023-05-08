@@ -114,16 +114,16 @@ understand cue. For that reason, we are not using any special cue syntax or
 features. -->
 
 ```javascript
-{% include_relative schema/v1/provenance.cue %}
+{% include_relative provenance.cue %}
 ```
 
 <details>
 <summary>Protocol buffer schema</summary>
 
-Link: [provenance.proto](schema/v1/provenance.proto)
+Link: [provenance.proto](provenance.proto)
 
 ```proto
-{% include_relative schema/v1/provenance.proto %}
+{% include_relative provenance.proto %}
 ```
 
 </details>
