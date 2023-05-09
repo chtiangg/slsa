@@ -43,7 +43,7 @@ been included).
 ## Prerequisite
 
 Understanding of SLSA [Software Attestations](/attestation-model),
-[SLSA Provenance](/provenance), and the larger [in-toto attestation] framework.
+[SLSA Provenance](provenance), and the larger [in-toto attestation] framework.
 
 ## Model
 
@@ -58,7 +58,7 @@ needing to evaluate the artifact or to have access to the attestations the
 The VSA also allows consumers to determine the verified levels of
 all of an artifact’s _transitive_ dependencies.  The verifier does this by
 either a) verifying the provenance of each non-source dependency listed in
-the [materials](/provenance/v0.2#materials) of the artifact
+the [materials](/provenance#materials) of the artifact
 being verified (recursively) or b) matching the non-source dependency
 listed in `materials` (by subject.digest == materials.digest and, ideally,
 subject.name == materials.uri) to a VSA _for that dependency_ and using

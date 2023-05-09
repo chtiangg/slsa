@@ -467,13 +467,13 @@ individual instructions in build.sh).
 
 If <a href="#build-as-code">build-as-code</a> is used, this SHOULD be the
 source repo and entry point of the build config (as in
-[the GitHub Actions example](/provenance/v0.2#github-actions)).
+[the GitHub Actions example](/v0.1/provenance#github-actions)).
 
 If the build isn't defined in code it MAY list the details of what it was
 asked to do (as in
-[the Google Cloud Build RPC example](/provenance/v0.2#cloud-build-rpc)
+[the Google Cloud Build RPC example](/v0.1/provenance#cloud-build-rpc)
 or
-[the Explicitly Run Commands example](/provenance/v0.2#explicitly-run-commands)).
+[the Explicitly Run Commands example](/v0.1/provenance#explicitly-run-commands)).
 
 <td>✓<td>✓<td>✓<td>✓
 <tr id="identifies-source-code">
