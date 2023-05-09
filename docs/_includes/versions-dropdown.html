@@ -1,8 +1,8 @@
 {%- assign url_parts = page.url | split: '/' %}
-{%- assign spec_name = url_parts[1] %}
-{%- assign spec_version = url_parts[2] %}
-{%- if site.data.versions[spec_name].versions[spec_version] %}
-{%- assign versions = site.data.versions[spec_name].versions | sort %}
+{%- comment %}url_part[0] is the domain name, for example slsa.dev in prod {% endcomment -%}
+{%- assign spec_version = url_parts[1] %}
+{%- if site.data.versions[spec_version] %}
+{%- assign versions = site.data.versions | sort %}
 <select id="redirectSelect.{{include.laptop}}" class="select-dropdown p-1 mx-1 my-4 text-black opacity-80
   {{include.laptop}}
   {%- if include.green %} border-green-900 bg-transparent
