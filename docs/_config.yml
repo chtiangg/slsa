@@ -49,7 +49,7 @@ defaults:
     values:
       image: true
   - scope:
-      path: "spec"
+      path: ""
     values:
       layout: "specifications"
   - scope:
