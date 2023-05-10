@@ -28,7 +28,7 @@ testimonials:
         name: Bruno Domingues
         role: CTO, Financial Services Industry, Intel
         logo: /images/intel-logo.png
-layout: default
+layout: home
 ---
 <!-- Hero -->
 <section class="hero home flex justify-center items-center relative">
