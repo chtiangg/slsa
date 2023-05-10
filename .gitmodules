@@ -1,8 +1,8 @@
 [submodule "docs/v0.1"]
 	path = docs/v0.1
-	url = .
+	url = ./
 	branch = test/v0.1
 [submodule "docs/v1.0"]
 	path = docs/v1.0
-	url = .
+	url = ./
 	branch = test/v1.0
