@@ -56,21 +56,21 @@ Organizations of all sizes and sophistication levels can prioritize, customize, 
 
 Establish a governance capability for managing and monitoring components of embedded software to manage risk across the enterprise (e.g. SBOMs paired with criticality, vulnerability, threat, and exploitability to make this more automated.)
 
-**SLSA Examples:** [Source Version Control](/spec/v0.1/requirements#version-controlled), [Scripted Builds](/spec/v0.1/requirements#scripted-build), [Provenance Available.](/spec/v0.1/requirements#available)
+**SLSA Examples:** [Source Version Control](https://slsa.dev/v0.1/requirements#version-controlled), [Scripted Builds](https://slsa.dev/v0.1/requirements#scripted-build), [Provenance Available.](https://slsa.dev/v0.1/requirements#available)
 <p>&nbsp;</p>
 
 ### Sustaining Guidance Example
 
 Next steps to enhance Cybersecurity Supply Chain Risk Management (C-SCRM). Use confidence building mechanisms such as third-party assessment surveys, on-site visits, and formal certifications such as the ISO 27000 family.
 
-**SLSA Examples:** [Verified History Retention](/spec/v0.1/requirements#verified-history), [Build Service](/spec/v0.1/requirements#build-service), [Provenance Service Generated](/spec/v0.1/requirements#service-generated).
+**SLSA Examples:** [Verified History Retention](https://slsa.dev/v0.1/requirements#verified-history), [Build Service](https://slsa.dev/v0.1/requirements#build-service), [Provenance Service Generated](https://slsa.dev/v0.1/requirements#service-generated).
 <p>&nbsp;</p>
 
 ### Enhancing Guidance Example
 
 Applied with the goal of advancing toward adaptive and predictive C-SCRM capabilities. Automate C-SCRM processes where applicable and practical.
 
-**SLSA Examples**: [Provenance Non-falsifiable](/spec/v0.1/requirements#non-falsifiable), [Ephemerial Environment](/spec/v0.1/requirements#ephemeral-environment), [Reproducible Build](/spec/v0.1/requirements#reproducible).
+**SLSA Examples**: [Provenance Non-falsifiable](https://slsa.dev/v0.1/requirements#non-falsifiable), [Ephemerial Environment](https://slsa.dev/v0.1/requirements#ephemeral-environment), [Reproducible Build](https://slsa.dev/v0.1/requirements#reproducible).
 <p>&nbsp;</p>
 
 ## The Cybersecurity Framework: 2.0 and Beyond

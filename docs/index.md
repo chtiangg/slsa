@@ -212,9 +212,9 @@ testimonials:
             <div class="w-full md:w-1/2">
                 <div class="rounded-lg text-green p-5 border border-green-400 inline-block mt-8 md:mt-0 mb-8 h4 font-semibold">SLSA v1.0 is available now!</div>
                 <p>
-                <a href="spec/v1.0/">SLSA v1.0</a> is now available, released in April 2023.
+                <a href="/v1.0/">SLSA v1.0</a> is now available, released in April 2023.
                 We expect the specification to remain stable, with future versions expanding its breadth and depth.
-                For more information about this release, see <a href="/spec/v1.0/whats-new">What's new in v1.0</a>.
+                For more information about this release, see <a href="/v1.0/whats-new">What's new in v1.0</a>.
                 <br><br>
 Google has been using an internal version of SLSA since 2013 and requires it for all of their production workloads.</p>
             </div>

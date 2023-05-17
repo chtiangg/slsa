@@ -5,16 +5,16 @@ is_guest_post: false
 ---
 
 After almost two years since SLSA's initial preview release, we are pleased to
-announce our first official stable version, [SLSA v1.0](/spec/v1.0)! The full
+announce our first official stable version, [SLSA v1.0](/v1.0)! The full
 announcement can be found at the [OpenSSF press release], and a description of
-changes can be found at [What's new in v1.0](/spec/v1.0/whats-new). Thank you to
+changes can be found at [What's new in v1.0](/v1.0/whats-new). Thank you to
 all members of the SLSA community who made this possible through your feedback,
 suggestions, discussions, and pull requests!
 
 But SLSA doesn't stop here. We intend to continue working through the [backlog]
 of editorial feedback we received from RC1 and RC2 and updating the
 specification on a rolling basis. Further down the road, our
-[plans](/spec/v1.0/future-directions) include expanding the depth and breadth of
+[plans](/v1.0/future-directions) include expanding the depth and breadth of
 the specification.
 
 As always, we welcome contributions from all. Please see the
