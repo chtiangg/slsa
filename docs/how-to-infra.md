@@ -15,19 +15,19 @@ tooling you provide.
 
 1.  Verify that your infrastructure is suitable to produce SLSA provenance. To
 learn more about verifying your system for SLSA conformance, see
-[Verifying build platforms](/spec/v1.0/verifying-systems).
+[Verifying build platforms](/v1.0/verifying-systems).
 2.  Add support for generating SLSA provenance. To learn more about producing
-provenance, see [Producing artifacts](/spec/v1.0/requirements). To learn more
+provenance, see [Producing artifacts](/v1.0/requirements). To learn more
 about the SLSA provenance format, see [Provenance](/provenance/v1).
 
-## [Package registry](/spec/v1.0/terminology.md#package-model)
+## [Package registry](/v1.0/terminology.md#package-model)
 
 1.  Verify provenance for the software you distribute. To
 learn more about verifying provenance, see
-[Verifying artifacts](/spec/v1.0/verifying-artifacts).
+[Verifying artifacts](/v1.0/verifying-artifacts).
 2.  Distribute provenance for the software you distribute. To learn more about
 distributing provenance, see
-[Distributing provenance](/spec/v1.0/distributing-provenance).
+[Distributing provenance](/v1.0/distributing-provenance).
 
 ## Compiler or other CLI build tool
 

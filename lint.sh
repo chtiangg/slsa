@@ -29,10 +29,10 @@ EOF
 }
 
 # Require all links to be relative, not absolute.
-# Allowed: [requirements](/spec/v1.0/requirements)
-#          [requirements]: /spec/v1.0/requirements
-# Disallowed: [requirements](https://slsa.dev/spec/v1.0/requirements)
-#             [requirements]: https://slsa.dev/spec/v1.0/requirements
+# Allowed: [requirements](/v1.0/requirements)
+#          [requirements]: /v1.0/requirements
+# Disallowed: [requirements](https://slsa.dev/v1.0/requirements)
+#             [requirements]: https://slsa.dev/v1.0/requirements
 #
 # This uses a heuristic to detect links in Markdown files, namely
 # `https?://slsa.dev` immediately following `(` or `]: `.
