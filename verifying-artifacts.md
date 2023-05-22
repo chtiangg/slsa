@@ -26,13 +26,13 @@ Verification SHOULD include the following steps:
     an approved list of `externalParameters` to be ignored during verification.
     Any unrecognized `externalParameters` SHOULD cause verification to fail.
 
-![Threats covered by each step](/images/v1.0/supply-chain-threats-build-verification.svg)
+![Threats covered by each step](/supply-chain-threats-build-verification.svg)
 
 See [Terminology](terminology.md) for an explanation of supply chain model and
 [Threats & mitigations](threats.md) for a detailed explanation of each threat.
 
 **Note:** This section assumes that the provenance is in the recommended
-[provenance format](/provenance/v1). If it is not, then the verifier SHOULD
+[provenance format](/provenance). If it is not, then the verifier SHOULD
 perform equivalent checks on provenance fields that correspond to the ones
 referenced here.
 
@@ -98,7 +98,7 @@ Given an artifact and its provenance:
     trust, resulting in a list of recognized public keys (or equivalent).
 2.  [Verify][processing-model] that statement's `subject` matches the digest of
     the artifact in question.
-3.  Verify that the `predicateType` is `https://slsa.dev/provenance/v1`.
+3.  Verify that the `predicateType` is `https://slsa.dev/provenance/v1.
 4.  Look up the SLSA Build Level in the roots of trust, using the recognized
     public keys and the `builder.id`, defaulting to SLSA Build L1.
 

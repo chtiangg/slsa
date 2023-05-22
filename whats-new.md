@@ -180,7 +180,7 @@ specification and concretely in the provenance format, using different language.
 Implementers needed to jump back and forth and mentally map one concept to
 another.
 
-SLSA v1.0 and the recommended [provenance v1 format](/provenance/v1) attempt to
+SLSA v1.0 and the recommended [provenance v1 format](/v1.0/provenance) attempt to
 address this confusion by simplifying the model and aligning terminology between
 the two. The main change is to represent all "external parameters" that are
 exposed to the build platform's users, instead of differentiating between
@@ -188,10 +188,10 @@ various inputs. Now, you can represent arbitrary parameters, as long as it is
 possible to compare these parameters to expectations. Other parts of the
 provenance format were renamed, though most concepts translate from the old
 format to the new format. For a detailed list of changes, see
-[provenance change history](/provenance/v1#change-history).
+[provenance change history](/v1.0/provenance#change-history).
 
 In addition, the recommended
-[verification summary attestation (VSA)](/verification_summary/v1) has been
+[verification summary attestation (VSA)](/v1.0/verification_summary.md) has been
 updated to v1.0.
 
 <!-- Footnotes and link definitions -->

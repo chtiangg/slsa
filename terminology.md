@@ -34,7 +34,7 @@ supply chains plus its own sources and builds.
 
 [directed acyclic graph]: https://en.wikipedia.org/wiki/Directed_acyclic_graph
 
-![Software Supply Chain Model](../../images/supply-chain-model.svg)
+![Software Supply Chain Model](/supply-chain-model.svg)
 
 | Term | Description | Example |
 | --- | --- | --- |
@@ -47,7 +47,7 @@ supply chains plus its own sources and builds.
 
 [build]: #build-model
 [package]: #package-model
-[SLSA Provenance]: /provenance/v1
+[SLSA Provenance]: /provenance
 
 ### Roles
 
@@ -99,7 +99,7 @@ reference to this artifact is a parameter while the artifact itself is a
 dependency.
 
 For examples on how this model applies to real-world build platforms, see [index
-of build types](/provenance/v1#index-of-build-types).
+of build types](/provenance#index-of-build-types).
 
 ### Package model
 

@@ -12,7 +12,7 @@ SLSA can help. For a more technical discussion, see [Threats & mitigations](thre
 
 ## Summary
 
-![Supply Chain Threats](../../images/v1.0/supply-chain-threats.svg)
+![Supply Chain Threats](/supply-chain-threats.svg)
 
 See [Terminology](terminology.md) for an explanation of the supply chain
 model.
