@@ -5,8 +5,8 @@ to = "/:splat"
 
 [[redirects]]
 from = "/provenance/*"
-to = "/"
+to = "/:splat/provenance"
 
 [[redirects]]
-from = "/verification_summary/"
-to = "/"
+from = "/verification_summary/*"
+to = "/:splat/verification_summary"
