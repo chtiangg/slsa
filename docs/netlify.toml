@@ -1,15 +1,12 @@
 # Redirect with a 301
 [[redirects]]
-from = "/spec"
-to = "/"
-status = 301
+from = "/spec/*"
+to = "/*"
 
 [[redirects]]
-from = "/provenance"
-to = "/"
-status = 301
+from = "/provenance/*"
+to = "/*"
 
 [[redirects]]
-from = "/verification_summary"
-to = "/"
-status = 301
+from = "/verification_summary/*"
+to = "/*"
