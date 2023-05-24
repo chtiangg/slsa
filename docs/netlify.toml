@@ -1,10 +1,10 @@
 # Redirect with a 301
 [[redirects]]
-from = "/spec/"
-to = "/"
+from = "/spec/*"
+to = "/:splat"
 
 [[redirects]]
-from = "/provenance/"
+from = "/provenance/*"
 to = "/"
 
 [[redirects]]
