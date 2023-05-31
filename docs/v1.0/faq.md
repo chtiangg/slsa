@@ -29,7 +29,7 @@ reproducible."
 bit-for-bit identical output. This property
 [provides](https://reproducible-builds.org/docs/buy-in/)
 [many](https://wiki.debian.org/ReproducibleBuilds/About)
-[benefits](https://static.googleusercontent.com/media/sre.google/en//static/pdf/building_secure_and_reliable_systems.pdf#page=357),
+[benefits](https://google.github.io/building-secure-and-reliable-systems/raw/ch14.html#hermeticcomma_reproduciblecomma_or_veri),
 including easier debugging, more confident cherry-pick releases, better build
 caching and storage efficiency, and accurate dependency tracking.
 
